@@ -1,15 +1,51 @@
-- name: Will
-  img: logo.jpg
-  location: London, UK
-
-- name: Amanda
-  img: amanda.jpg
-  location: New York City, USA
-
-- name: Aaron
-  img: aaron.jpg
-  location: London, UK
-
-- name: Swift
+- name: Prasaya Acharya
   img: swift.jpg
-  location: New York City, USA
+  location: Kathmandu, NP
+
+- name: Rose Allison
+  img: swift.jpg
+  location: New York, US
+
+- name: Zainab Fahim
+  img: swift.jpg
+  location: Panadura, LK
+
+- name: Sharvil Karwa
+  img: swift.jpg
+  location: Mumbai, IN
+
+- name: Mahidhar Mannuru
+  img: swift.jpg
+  location: Thatiparthi, IN
+
+- name: Arindam Raina
+  img: swift.jpg
+  location: Delhi, IN
+
+- name: Neha Raut
+  img: swift.jpg
+  location: Pune, IN
+
+- name: Anirudh Sharma
+  img: swift.jpg
+  location: New Delhi, IN
+
+- name: Vishal Shinde
+  img: swift.jpg
+  location: Kalyan, IN
+
+- name: Swapnil Shinde
+  img: swift.jpg
+  location: Pune, IN
+
+- name: Richa Srivastava
+  img: swift.jpg
+  location: Lucknow, IN
+
+- name: Goutam Verma
+  img: swift.jpg
+  location: Indore, IN
+
+- name: Paula Yumi Pasqualini
+  img: swift.jpg
+  location: London, GB
