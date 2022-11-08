@@ -1,11 +1,34 @@
 <h2>Meet the Pod</h2>
-<div class="card-container">
+<div class="pod-container">
     {% for item in site.data.fellows %}
-    <div class="card">
-        <div class="info">
-            <p class="title"> {{ item.name }}</p>
-            <p class="location"> {{ item.location }}</p>
+
+        <div class="profile-card">
+            <div class="profile-card-header">
+                
+                
+                <div class="profile-image"></div>            
+                
+        
+                <div class="profile-info">
+                    <h3 class="profile-name">{{ item.name }}</h3>
+                    <p class="profile-desc">{{ item.location }}</p>
+                </div>
+            </div>
+        
+            <div class="profile-card-body">
+                <!-- <ul class="status">
+                    <li>
+                        <span class="status-value">532</span>
+                        <span class="status-text">Contributions</span>
+                    </li>
+                </ul> -->
+        
+                <div class="action">
+                    <a href="#" target="_blank" class="fa fa-facebook"></a>
+                    <a href="#" target="_blank" class="fa fa-twitter"></a>
+                    <a href="#" target="_blank" class="fa fa-github"></a>
+                </div>
+            </div>
         </div>
-    </div>
     {% endfor %}
 </div>

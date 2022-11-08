@@ -3,6 +3,7 @@
 @import 'navbar';
 @import 'profile';
 @import 'page';
+@import 'description';
 
 .card-container {
     display: grid;
@@ -42,7 +43,7 @@ h2 {
 
 .card {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     margin: 20px 30px;
     background-color: white;
