@@ -6,18 +6,21 @@
   padding-top: 10px;
 }
 
-.nav-content .logo-touch-target {
-  display: inline-flex;
-  height: 60%;
-  width: 350px;
-}
+// .nav-content .logo-touch-target {
+//   display: inline-flex;
+//   height: 60%;
+//   width: 350px;
+// }
+
+// .nav-content {
+//   display: flex;
+// }
 
 .nav-content .nav-logo {
   height: 60px;
 }
 
-.nav-logo,
-.theme-toggle-btn {
+.nav-logo {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,6 +28,13 @@
 
 .nav-logo img {
   width: 200px;
+}
+
+.theme-toggle-btn {
+  position: absolute;
+  top: 25px;
+  right: 30px;
+  height: 10px !important;
 }
 
 .nav-content nav {
@@ -38,7 +48,7 @@
 //dark theme toggling
 body.dark {
   background-color: #000000;
-  h2 {
+  h2, .welcome p {
     color: white;
   }
 }
