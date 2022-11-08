@@ -1,5 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
 
+.welcome-wrapper{
+	width: 100%;
+	height: max-content;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 50px;
+	margin-top: 20px;
+	.welcome{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 90%;
+		height: max-content;
+	
+		p{
+			text-align: left;
+		}
+	}
+}
+
 .pod-container{
     display: flex;
     justify-content: space-evenly;
@@ -8,38 +30,44 @@
 }
 
 .profile-card {
-	width: 340px;
+	width: 290px;
 	height: max-content;
 	position: relative;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 2rem;
+	padding: 1.2rem;
 	background-color: white;
 	border-radius: 1rem;
 	box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.6);
     margin: 30px;
+	margin-top: 50px;
+	justify-content: center;
 }
 
-.profile-card-header{
-	&:hover > .profile-image{
-		transform: rotate3d(0, 1, 0, 3.142rad);
+.profile-image-root{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: max-content;
+	margin-bottom: 10px;
+
+	.profile-image {
+		
+		position: relative;
+		top: -65px;
+		border-radius: 50%;
+		width: 9rem;
+		height: 9rem;
+		background-position: center;
+		background-size: cover;
+		box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.4);
+		transition: transform 0.9s ease;
+		justify-self: center;
 	}
 }
 
-.profile-image {
-	position: relative;
-	top: -60px;
-	border-radius: 1rem;
-	background-image: url(https://avatars.githubusercontent.com/u/78658727?v=4);
-	width: 11rem;
-	height: 11rem;
-	background-position: center;
-	background-size: cover;
-	box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.4);
-	transition: transform 0.9s ease;
-
-}
 
 .profile-info {
 	text-align: center;
@@ -48,6 +76,7 @@
 }
 
 .profile-info > .profile-name {
+	font-size: 1.3rem;
 	color: #212121;
 }
 
