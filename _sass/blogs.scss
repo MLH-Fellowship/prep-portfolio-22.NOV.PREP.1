@@ -1,0 +1,16 @@
+.blog-image{
+    height: 50px;
+    width:50px;
+    margin-right:10px;
+    border-radius: 20%;
+    
+
+}
+.blog-image:hover{
+    transform:scale(1.35)
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: cubic-bezier(0.23, 1, 0.320, 1);
+}
