@@ -2,24 +2,27 @@ URL = "https://api.github.com/repos/MLH-Fellowship/prep-portfolio-22.NOV.PREP.1/
 contributors = fetch(URL)
   .then(res => res.json())
   .then(json => {
-    contributor_list = new Map(
-      json.map(item => {
-        return [item.login, item.contributions];
-      })
+    var contributors = new Map(
+      json.map(item => [item.login, item.contributions])
     );
 
-    var leaderboardTable = document.getElementById('leaderboard').getElementsByTagName('tbody')[0];
+    var ordered_contributors = new Map(
+      [...contributors].sort((a, b) => b[1] - a[1])
+    )
 
-    contributor_list.forEach((contributions, login) => {
-      var userDiv = document.getElementById(login);
+    const leaderboardTable = document.getElementById('leaderboard').getElementsByTagName('tbody')[0];
+
+    ordered_contributors.forEach((contributions, username) => {
+      var userDiv = document.getElementById(username);
       if(userDiv) {
         var content = document.createTextNode("Contributions: " + contributions);
         userDiv.appendChild(content);
       }
 
       var newRow = leaderboardTable.insertRow();
+
       var userCell = newRow.insertCell();
-      userCell.appendChild(document.createTextNode(login));
+      userCell.appendChild(document.createTextNode(username));
 
       var contributionsCell = newRow.insertCell();
       contributionsCell.appendChild(document.createTextNode(contributions));
