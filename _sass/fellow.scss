@@ -1,0 +1,5 @@
+.container::after,
+.container::before {
+    content: "";
+    padding: 1em;
+}

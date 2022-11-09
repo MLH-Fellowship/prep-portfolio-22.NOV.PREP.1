@@ -1,0 +1,53 @@
+---
+layout: page
+---
+<div class="container">
+    <div class="bg-secondary d-flex justify-content-center align-items-center">
+    
+        <div class="d-flex flex-column justify-content-center align-items-center">
+            <img src="{{ page.img }}" height="200" width="200" alt="{{ page.title }}" class="rounded-circle">
+            <span>{{ page.title }}</span>
+            <span>{{ page.location }}</span>
+        </div>
+        
+        <div class="d-flex flex-column justify-content-center align-items-center">
+            
+            <span class="">University:</span>
+            <p class="">
+                {{ page.university }}
+            </p>
+    
+            <span class="">Description:</span>
+            <p class="">
+                {{ page.description }}
+            </p>
+    
+            <span class="">Favourite programming languages:</span>
+            <div class="d-flex flex-row justify-content-center align-items-center">
+                {{ page.programming-languages }}
+            </div>
+    
+            <span class="">Interests out of Tech:</span>
+            <div class="d-flex flex-row justify-content-center align-items-center">
+                {{ page.interests }}
+            </div>
+    
+            <div class="social-icons d-flex flex-row justify-content-around align-items-center">
+                <a href="{{ page.twitter }}">
+                    <span><i class="fa fa-twitter"></i></span>
+                </a>
+                <a href="{{ page.gitHub }}">
+                    <span><i class="fa fa-github"></i></span>
+                </a>
+                <a href="{{ page.linkedIn }}">
+                    <span><i class="fa fa-linkedin"></i></span>
+                </a>
+                <a href="{{ page.email }}">
+                    <span><i class="fa fa-envelope"></i></span>
+                </a>
+            </div>
+    
+        </div>
+    
+    </div>
+</div>

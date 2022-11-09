@@ -133,3 +133,23 @@ hr {
         font-size: 0.8rem !important;
     }
 }
+
+a.go-to-home-btn {
+    color: white !important;
+    font-family: "Open Sans", serif;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    background-color:#1d539f;
+    border: none;
+    padding: 15px;
+    text-align: center;
+    margin: 4px 2px;
+    border-radius: 12px;  
+}
+
+.go-to-home-btn {
+    background-color: #133667;
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    font-weight: bolder;
+}
