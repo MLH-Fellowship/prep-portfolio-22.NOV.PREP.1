@@ -2,7 +2,7 @@
 <div class="card-container">
     {% for item in site.data.fellows %}
     <div class="card">
-        <div class="info">
+        <div class="info" id={{item.username}}>
             <p class="title"> {{ item.name }}</p>
             <p class="location"> {{ item.location }}</p>
         </div>
