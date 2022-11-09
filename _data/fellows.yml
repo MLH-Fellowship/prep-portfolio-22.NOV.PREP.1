@@ -1,15 +1,105 @@
-- name: Will
-  img: logo.jpg
-  location: London, UK
+- name: Prasaya Acharya
+  img: https://avatars.githubusercontent.com/u/47562404?v=4
+  location: Kathmandu, NP
+  facebook: a
+  twitter: b
+  github: c
 
-- name: Amanda
-  img: amanda.jpg
-  location: New York City, USA
+- name: Rose Allison
+  img: https://avatars.githubusercontent.com/u/68086268?v=4
+  location: New York, US
+  facebook: a
+  twitter: b
+  github: c
 
-- name: Aaron
-  img: aaron.jpg
-  location: London, UK
+- name: Prathamesh Mutkure  
+  img: https://avatars.githubusercontent.com/u/28570857?v=4
+  location: New York, US
+  facebook: a
+  twitter: b
+  github: c
 
-- name: Swift
-  img: swift.jpg
-  location: New York City, USA
+- name: Zainab Fahim
+  img: https://avatars.githubusercontent.com/u/80398726?v=4
+  location: Panadura, LK
+  facebook: a
+  twitter: b
+  github: https://github.com/Zainab-Fahim
+
+- name: Sharvil Karwa
+  img: https://avatars.githubusercontent.com/u/93196443?v=4
+  location: Mumbai, IN
+  facebook: a
+  twitter: b
+  github: c
+
+- name: Mahidhar Mannuru
+  img: https://avatars.githubusercontent.com/u/81514511?v=4
+  location: Thatiparthi, IN
+  facebook: a
+  twitter: b
+  github: c
+
+- name: Arindam Raina
+  img: https://avatars.githubusercontent.com/u/85777684?v=4
+  location: Delhi, IN
+  facebook: a
+  twitter: b
+  github: c
+
+- name: Paula Yumi Pasqualini
+  img: https://avatars.githubusercontent.com/u/52749105?v=4
+  location: London, GB
+  facebook: a
+  twitter: b
+  github: c
+
+- name: Neha Raut
+  img: https://avatars.githubusercontent.com/u/88868603?v=4
+  location: Pune, IN
+  facebook: a
+  twitter: b
+  github: c
+
+- name: Anirudh Sharma
+  img: https://avatars.githubusercontent.com/u/78658727?v=4
+  location: New Delhi, IN
+  facebook: a
+  twitter: b
+  github: c
+
+- name: Vishal Shinde
+  img: https://avatars.githubusercontent.com/u/79784161?v=4
+  location: Kalyan, IN
+  facebook: a
+  twitter: b
+  github: c
+
+
+- name: Richa Srivastava
+  img: https://avatars.githubusercontent.com/u/74401402?v=4
+  location: Lucknow, IN
+  facebook: a
+  twitter: b
+  github: c
+
+- name: Goutam Verma
+  img: https://avatars.githubusercontent.com/u/66783850?v=4
+  location: Indore, IN
+  facebook: a
+  twitter: b
+  github: c
+
+- name: Harshit Chunduri
+  img: https://avatars.githubusercontent.com/u/100994600?v=4
+  location: Hyderabad, IN
+  facebook: a
+  twitter: b
+  github: c
+
+- name: Swapnil Shinde
+  img: https://avatars.githubusercontent.com/u/68425016?v=4
+  location: Pune, IN
+  facebook: a
+  twitter: b
+  github: c
