@@ -1,18 +1,11 @@
-var map = L.map("map").setView([27.686, 85.278], 13);
+import { fellows } from "./fellowdata.js";
+
+var map = L.map("map").setView([30.1606, 22.7515], 3.4);
 
 L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
   attribution:
     '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 }).addTo(map);
-
-const fellows = [
-  {
-    name: "Prasaya Acharya",
-    lat: 27.686,
-    long: 85.278,
-    image: "https://avatars.githubusercontent.com/u/47562404?v=4",
-  },
-];
 
 var LeafIcon = L.Icon.extend({
   options: {
@@ -29,4 +22,11 @@ fellows.forEach((fellow) => {
   var marker = L.marker([fellow.lat, fellow.long], {
     icon: fellowIcon,
   }).addTo(map);
+
+  var popup = `
+                <div>
+                <p><b>${fellow.name}</b></p>
+                </div>`;
+
+  marker.bindPopup(popup);
 });
