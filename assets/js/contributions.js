@@ -15,8 +15,7 @@ contributors = fetch(URL)
     ordered_contributors.forEach((contributions, username) => {
       var userDiv = document.getElementById(username);
       if(userDiv) {
-        var content = document.createTextNode("Contributions: " + contributions);
-        userDiv.appendChild(content);
+        userDiv.innerHTML += `<span class='badge badge-mlh'>Contributions: ${contributions}</span>`
       }
 
       var newRow = leaderboardTable.insertRow();
