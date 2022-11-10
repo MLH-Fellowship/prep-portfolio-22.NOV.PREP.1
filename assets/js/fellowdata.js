@@ -1,5 +1,4 @@
 // Consists of data of each fellow necessary for rendering the map
-// Maybe redundant after fellow details is complete in a seperate file
 
 export const fellows = [
   {
