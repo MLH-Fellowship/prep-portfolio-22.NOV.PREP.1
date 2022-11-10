@@ -11,7 +11,7 @@ contributors = fetch(URL)
     )
 
     const leaderboardTable = document.getElementById('leaderboard').getElementsByTagName('tbody')[0];
-
+    var  Rank = 1;
     ordered_contributors.forEach((contributions, username) => {
       var userDiv = document.getElementById(username);
       if(userDiv) {
@@ -20,6 +20,10 @@ contributors = fetch(URL)
 
       var newRow = leaderboardTable.insertRow();
 
+      var rankCell = newRow.insertCell();
+      rankCell.appendChild(document.createTextNode(Rank));
+      Rank++;
+      
       var userCell = newRow.insertCell();
       userCell.appendChild(document.createTextNode(username));
 
