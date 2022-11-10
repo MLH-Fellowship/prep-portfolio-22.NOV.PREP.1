@@ -1,23 +1,65 @@
-.nav-bar {
-  width: 100%;
-  background-color: #133667;
-  font-family: "Poppins", serif;
-  font-weight: 700 !important;
-  padding-top: 10px;
+$navbar-height: 8em;
+html {
+    scroll-behavior: smooth;
+  }
+
+  .nav-bar {
+    width: 100%;
+    background-color: #0a2041;
+    font-family: "Poppins", serif;
+    font-weight: 700 !important;
+    height: $navbar-height;
+    position: fixed;
+
+    &:hover{
+        background-color: #07162a;
+    }
+    .nav-links {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 20px;
+
+        #small-nav-logo {
+            img {
+                height: 1.8em;
+            }
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .links {
+            padding: 0 50px;
+            grid-column: 2;
+            display: flex;
+            justify-content: space-around;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #theme-toggle {
+            grid-column: 3;
+            justify-self: end;
+        }
+    }
 }
 
-// .nav-content .logo-touch-target {
-//   display: inline-flex;
-//   height: 60%;
-//   width: 350px;
-// }
+.navbar:hover{
+    background-color: #0f2d57;
+}
 
-// .nav-content {
-//   display: flex;
-// }
+.nav-content .logo-touch-target {
+  display: inline-flex;
+  height: 60%;
+  width: 350px;
+}
 
 .nav-content .nav-logo {
   height: 60px;
+  margin: auto;
 }
 
 .nav-logo {
@@ -27,22 +69,30 @@
 }
 
 .nav-logo img {
-  width: 200px;
+  padding: 0 30px;
+  width: 220px;
 }
-
-.theme-toggle-btn {
-  position: absolute;
-  top: 25px;
-  right: 30px;
-  height: 10px !important;
+.nav-logo2 {
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  display: none;
 }
-
+.nav-logo2 img {
+  padding: 0px;
+  width: 140px;
+}
 .nav-content nav {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   text-align: right;
   padding-top: 0px;
   padding-right: 0px;
+}
+.block{
+  padding: 0 40px;
 }
 
 //dark theme toggling
