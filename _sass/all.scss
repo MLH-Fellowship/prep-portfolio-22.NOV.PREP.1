@@ -4,7 +4,7 @@
 @import 'profile';
 @import 'page';
 @import 'description';
-
+@import 'footer';
 .card-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -32,7 +32,7 @@
 
 body {
     background-color: #f5f5f9;
-    margin-bottom: 50px;
+    // margin-bottom: 50px;
 }
 h2 {
     margin-bottom: 20px;

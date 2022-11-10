@@ -1,0 +1,49 @@
+.footer-container {
+    background-color: #133667;
+    font-family: "Poppins", serif;  
+    color: white;
+    height: max-content;    
+  }
+.footer{
+    margin: 20px 50px 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+hr{
+    background-color:  grey;
+    padding: 0%;
+    width: 90%;
+    
+}
+
+.links{
+    padding: 5px;
+}
+
+.logo_image{
+    width: 200px;
+    height:fit-content;
+}
+
+.des{
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.right-section{
+    text-align: right;
+}
+
+@media only screen and (max-width: 768px){
+    .footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .right-section{
+        margin-top:10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+}
