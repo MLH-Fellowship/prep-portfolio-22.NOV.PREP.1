@@ -5,6 +5,21 @@
                 <img src="/assets/img/mlh-prep.png" />
             </div>
         </a>
+        <div class="nav-links">
+          <!-- <a href="{{ '/' | relative_url }}" class="hide" id="small-nav-logo">
+              <img src="./assets/img/mlh-prep.png" />
+          </a> -->
+          <div class="links">
+              <a href="#nav" >
+                  <div class="nav-logo2 block">
+                      <img src="./assets/img/mlh-prep.png" />
+                  </div>
+              </a>
+              <a class="block" href="#description">Meet the Pod</a>
+              <a class="block" href="#projects">Projects</a>
+              <a class="block" href="#blogs">Blogs</a>
+          </div>
+        </div>
         <div class="theme-toggle-btn">
             <input type="checkbox" class="checkbox" id="checkbox">
           <label for="checkbox" class="label">
@@ -21,4 +36,23 @@
     checkbox.addEventListener('change', ()=>{
       document.body.classList.toggle('dark');
     })
+    mainNav = document.querySelector(".nav-bar");
+    links = document.querySelector(".links");
+    shift=document.querySelector(".nav-logo")
+    shift2=document.querySelector(".nav-logo2")
+
+    shift2.addEventListener("click", function(){ window.scrollTo(0,0) })
+
+    window.addEventListener("scroll", (event) => {
+    let scrollY = this.scrollY;
+    if (scrollY > 100) {
+        shift2.style.display="flex";
+        shift.style.display="none";
+        mainNav.style.height="80px";
+    } else {
+        shift.style.display="flex";
+        shift2.style.display="none";
+        mainNav.style.height="8em";
+    }
+    });
 </script>
