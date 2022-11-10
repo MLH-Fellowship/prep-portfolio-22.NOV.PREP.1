@@ -1,53 +1,55 @@
 ---
 layout: page
 ---
-<div class="container">
-    <div class="bg-secondary d-flex justify-content-center align-items-center">
-    
-        <div class="d-flex flex-column justify-content-center align-items-center">
-            <img src="{{ page.img }}" height="200" width="200" alt="{{ page.title }}" class="rounded-circle">
-            <span>{{ page.title }}</span>
-            <span>{{ page.location }}</span>
+<div class="fellow-container">
+    <!-- <div class="bg-secondary d-flex justify-content-center align-items-center"> -->
+        <div class="fellow-img-container">
+            <img src="{{ page.img }}" height="400" width="400" alt="{{ page.title }}" class="rounded-circle">
+            <p class="fellow-name">{{ page.title }}</p>
+            <span>📍 {{ page.location }}</span>
         </div>
         
-        <div class="d-flex flex-column justify-content-center align-items-center">
-            
-            <span class="">University:</span>
-            <p class="">
-                {{ page.university }}
-            </p>
-    
-            <span class="">Description:</span>
-            <p class="">
-                {{ page.description }}
-            </p>
-    
-            <span class="">Favourite programming languages:</span>
-            <div class="d-flex flex-row justify-content-center align-items-center">
-                {{ page.programming-languages }}
+        <div class="fellow-info-container">
+            <div class="fellow-info">
+                <span class="fellow-info-key">University: </span>
+                <span class="">{{ page.university }}</span>
+            </div>
+
+            <div class="fellow-info">
+                <span class="fellow-info-key">Description:</span>
+                <span class="">
+                    {{ page.description }}
+                </span>
+            </div>
+
+            <div class="fellow-info">
+                <span class="fellow-info-key">Favourite programming languages:</span>
+                <span class="">
+                    {{ page.programming-languages }}
+                </span>
             </div>
     
-            <span class="">Interests out of Tech:</span>
-            <div class="d-flex flex-row justify-content-center align-items-center">
-                {{ page.interests }}
+            <div class="fellow-info">
+                <span class="fellow-info-key">Interests out of Tech:</span>
+                <span class="">
+                    {{ page.interests }}
+                </span>
             </div>
     
-            <div class="social-icons d-flex flex-row justify-content-around align-items-center">
-                <a href="{{ page.twitter }}">
-                    <span><i class="fa fa-twitter"></i></span>
-                </a>
-                <a href="{{ page.github }}">
-                    <span><i class="fa fa-github"></i></span>
+            <div class="social-icons d-flex flex-row align-items-center">
+                <a href="mailto:{{ page.email }}">
+                    <span class="fellow-social-icons"><i class="fa fa-envelope social-icons-hover"></i></span>
                 </a>
                 <a href="{{ page.linkedin }}">
-                    <span><i class="fa fa-linkedin"></i></span>
+                    <span class="fellow-social-icons"><i class="fab fa-linkedin social-icons-hover"></i></span>
                 </a>
-                <a href="{{ page.email }}">
-                    <span><i class="fa fa-envelope"></i></span>
+                <a href="{{ page.twitter }}">
+                    <span class="fellow-social-icons"><i class="fa fa-twitter social-icons-hover"></i></span>
+                </a>
+                <a href="{{ page.github }}">
+                    <span class="fellow-social-icons"><i class="fa fa-github social-icons-hover"></i></span>
                 </a>
             </div>
-    
         </div>
-    
-    </div>
+    <!-- </div> -->
 </div>
