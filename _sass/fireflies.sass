@@ -2,10 +2,9 @@
 $quantity: 17
 
 .profile
-    background: url(/assets/img/forest-bg.jpeg)
-    background-size: cover
 
     .firefly
+        display: none
         position: fixed
         left: 50%
         top: 50%
@@ -18,11 +17,12 @@ $quantity: 17
         &::before,
         &::after
             content: ''
-            position: absolute
+            position: fixed
             width: 100%
             height: 100%
             border-radius: 50%
             transform-origin: -10vw
+            z-index: -100
 
         &::before
             background: black

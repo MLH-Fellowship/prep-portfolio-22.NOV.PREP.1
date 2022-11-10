@@ -51,6 +51,13 @@ body.dark {
   h2, .welcome p {
     color: white;
   }
+  .profile{
+    background: url(/assets/img/forest-bg.jpeg);
+    background-size: cover;
+    .firefly{
+      display: flex;
+    }
+  }
 }
 
 .checkbox {

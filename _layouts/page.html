@@ -1,8 +1,9 @@
 ---
 layout: default
 ---
+{% include navbar.html %}
 
-<div class="banner">
+<!-- <div class="banner">
     <div class="container">
         <div class="logo">
             <a href="/">
@@ -13,10 +14,11 @@ layout: default
             {{ page.title }}
         </div>
     </div>
-</div>
+</div> -->
 
 <div class="container page">
     {{ content }}
-  
+
 </div>
 {% include footer.html %}
+<a href="/" class="go-to-home-btn">&laquo; Back to home</a>

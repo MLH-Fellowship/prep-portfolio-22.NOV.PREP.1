@@ -12,16 +12,15 @@
 <h2 style="margin-bottom: 50px;">Meet the Pod</h2>
 <div class="pod-container">
     {% for item in site.data.fellows %}
-
         <div class="profile-card">
             <div class="profile-card-header">
                 
                 <div class="profile-image-root">
                     <div class="profile-image" style="background-image: url({{item.img}});"></div> 
                 </div>
-            
-                <div class="profile-info">
-                    <h3 class="profile-name">{{ item.name }}</h3>
+         
+                <div class="profile-info" id={{item.github}}>
+                    <h3 class="profile-name"><a href="/fellows/{{ item.page }}">{{ item.name }}</a></h3>
                     <p class="profile-desc">{{ item.location }}</p>
                 </div>
             </div>
@@ -37,7 +36,7 @@
                 <div class="action">
                     <a href="{{ item.facebook }}" target="_blank" class="fa fa-facebook"></a>
                     <a href="{{ item.twitter }}" target="_blank" class="fa fa-twitter"></a>
-                    <a href="{{ item.github }}" target="_blank" class="fa fa-github"></a>
+                    <a href="https://github.com/{{ item.github }}" target="_blank" class="fa fa-github"></a>
                 </div>
             </div>
         </div>
