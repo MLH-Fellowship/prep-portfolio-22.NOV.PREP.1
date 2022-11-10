@@ -7,6 +7,7 @@ export const fellows = [
     long: 85.278,
     location: "Kathmandu, Nepal",
     image: "https://avatars.githubusercontent.com/u/47562404?v=4",
+    page: "prasaya",
   },
   {
     name: "Rose Allison",
@@ -14,6 +15,7 @@ export const fellows = [
     long: -73.9716,
     location: "New York, USA",
     image: "https://avatars.githubusercontent.com/u/68086268?v=4",
+    page: "rose",
   },
   {
     name: "Prathamesh Mutkure",
@@ -21,6 +23,7 @@ export const fellows = [
     long: 73.8835,
     location: "Pune, IN",
     image: "https://avatars.githubusercontent.com/u/28570857?v=4",
+    page: "prathamesh",
   },
   {
     name: "Zainab Fahim",
@@ -28,6 +31,7 @@ export const fellows = [
     long: 79.9111,
     location: "Panadura, LK",
     image: "https://avatars.githubusercontent.com/u/80398726?v=4",
+    page: "zainab",
   },
   {
     name: "Sharvil Karwa",
@@ -35,13 +39,15 @@ export const fellows = [
     long: 72.8489,
     location: "Mumbai, IN",
     image: "https://avatars.githubusercontent.com/u/93196443?v=4",
+    page: "sharvil",
   },
   {
-    name: "Mahindhar Mannuru",
+    name: "Mahidhar Mannuru",
     lat: 14.4575,
     long: 79.9875,
     location: "Thatiparthi, IN",
     image: "https://avatars.githubusercontent.com/u/93196443?v=4",
+    page: "mahidhar",
   },
   {
     name: "Arindam Raina",
@@ -49,6 +55,7 @@ export const fellows = [
     long: 77.0959,
     location: "Delhi, IN",
     image: "https://avatars.githubusercontent.com/u/93196443?v=4",
+    page: "arindam",
   },
   {
     name: "Paula Yumi Pasqualini",
@@ -56,6 +63,7 @@ export const fellows = [
     long: -0.2609,
     location: "London, GB",
     image: "https://avatars.githubusercontent.com/u/52749105?v=4",
+    page: "paula",
   },
   {
     name: "Neha Raut",
@@ -63,6 +71,7 @@ export const fellows = [
     long: 73.8279,
     location: "Pune, IN",
     image: "https://avatars.githubusercontent.com/u/88868603?v=4",
+    page: "neha",
   },
   {
     name: "Anirudh Sharma",
@@ -70,6 +79,7 @@ export const fellows = [
     long: 77.1602,
     location: "New Delhi, IN",
     image: "https://avatars.githubusercontent.com/u/78658727?v=4",
+    page: "anirudh",
   },
   {
     name: "Vishal Shinde",
@@ -77,6 +87,7 @@ export const fellows = [
     long: 72.8777,
     location: "Mumbai, IN",
     image: "https://avatars.githubusercontent.com/u/79784161?v=4",
+    page: "vishal",
   },
   {
     name: "Richa Srivastava",
@@ -84,6 +95,7 @@ export const fellows = [
     long: 81.1166,
     location: "Lucknow, IN",
     image: "https://avatars.githubusercontent.com/u/74401402?v=4",
+    page: "richa",
   },
   {
     name: "Goutam Verma",
@@ -91,6 +103,7 @@ export const fellows = [
     long: 75.8617,
     location: "Indore, IN",
     image: "https://avatars.githubusercontent.com/u/66783850?v=4",
+    page: "goutam",
   },
   {
     name: "Harshit Chunduri",
@@ -98,6 +111,7 @@ export const fellows = [
     long: 78.3915,
     location: "Hyderabad, IN",
     image: "https://avatars.githubusercontent.com/u/100994600?v=4",
+    page: "harshit",
   },
   {
     name: "Swapnil Shinde",
@@ -105,5 +119,6 @@ export const fellows = [
     long: 73.8863,
     location: "Pune, IN",
     image: "https://avatars.githubusercontent.com/u/68425016?v=4",
+    page: "swapnil",
   },
 ];

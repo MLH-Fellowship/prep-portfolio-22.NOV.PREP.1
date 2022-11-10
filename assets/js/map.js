@@ -25,7 +25,11 @@ fellows.forEach((fellow) => {
 
   var popup = `
                 <div>
-                <p style="margin-bottom:0;"><b>${fellow.name}</b></p>
+                <p style="margin-bottom:0;">
+                  <a href="/fellows/${fellow.page}">
+                    <b>${fellow.name}</b>
+                  </a>
+                </p>
                 <p style="margin : 0; padding-top:5px;"><b>${fellow.location}</b></p>
                 </div>
               `;
