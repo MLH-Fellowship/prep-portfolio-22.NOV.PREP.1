@@ -6,7 +6,7 @@ location: Pune, IN
 email: x@x.x
 linkedin: xx
 twitter: xx
-github: xx
+github: https://github.com/neharaut00
 description: xx
 university: xx
 interests: xx

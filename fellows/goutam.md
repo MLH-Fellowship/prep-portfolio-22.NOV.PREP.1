@@ -6,7 +6,7 @@ location: Indore, IN
 email: x@x.x
 linkedin: xx
 twitter: xx
-github: xx
+github: https://github.com/GoutamVerma
 description: xx
 university: xx
 interests: xx

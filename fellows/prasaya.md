@@ -6,7 +6,7 @@ location: Kathmandu, NP
 email: x@x.x
 linkedin: xx
 twitter: xx
-github: xx
+github: https://github.com/Prasaya
 description: xx
 university: xx
 interests: xx

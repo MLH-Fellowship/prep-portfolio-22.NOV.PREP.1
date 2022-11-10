@@ -6,7 +6,7 @@ location: Hyderabad, IN
 email: x@x.x
 linkedin: xx
 twitter: xx
-github: xx
+github: https://github.com/Harshith-19
 description: xx
 university: xx
 interests: xx

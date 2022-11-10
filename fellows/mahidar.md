@@ -6,7 +6,7 @@ location: Thatiparthi, IN
 email: x@x.x
 linkedin: xx
 twitter: xx
-github: xx
+github: https://github.com/MahidharMannuru5
 description: xx
 university: xx
 interests: xx

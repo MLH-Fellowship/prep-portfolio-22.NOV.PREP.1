@@ -6,7 +6,7 @@ location: Kalyan, IN
 email: x@x.x
 linkedin: xx
 twitter: xx
-github: xx
+github: https://github.com/vishal-codes
 description: xx
 university: xx
 interests: xx

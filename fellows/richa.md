@@ -6,7 +6,7 @@ location: Lucknow, IN
 email: x@x.x
 linkedin: xx
 twitter: xx
-github: xx
+github: https://github.com/getRicha
 description: xx
 university: xx
 interests: xx

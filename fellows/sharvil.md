@@ -6,7 +6,7 @@ location: Mumbai, IN
 email: x@x.x
 linkedin: xx
 twitter: xx
-github: xx
+github: https://github.com/Sharvil-Karwa
 description: xx
 university: xx
 interests: xx

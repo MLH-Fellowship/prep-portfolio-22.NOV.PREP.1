@@ -3,7 +3,7 @@
   location: Kathmandu, NP
   facebook: a
   twitter: b
-  github: c
+  github: https://github.com/Prasaya
   page: prasaya
 
 - name: Rose Allison
@@ -11,15 +11,15 @@
   location: New York, US
   facebook: a
   twitter: b
-  github: c
+  github: https://github.com/aroseallison
   page: rose
 
 - name: Prathamesh Mutkure  
   img: https://avatars.githubusercontent.com/u/28570857?v=4
-  location: New York, US
+  location: Nagpur, IN
   facebook: a
   twitter: b
-  github: c
+  github: https://github.com/prathamesh-mutkure
   page: prathamesh
 
 - name: Zainab Fahim
@@ -35,7 +35,7 @@
   location: Mumbai, IN
   facebook: a
   twitter: b
-  github: c
+  github: https://github.com/Sharvil-Karwa
   page: sharvil
 
 - name: Mahidhar Mannuru
@@ -43,7 +43,7 @@
   location: Thatiparthi, IN
   facebook: a
   twitter: b
-  github: c
+  github: https://github.com/MahidharMannuru5
   page: mahidhar
 
 - name: Arindam Raina
@@ -51,15 +51,15 @@
   location: Delhi, IN
   facebook: a
   twitter: b
-  github: c
+  github: https://github.com/h2o-Noob
   page: arindam
 
 - name: Paula Yumi Pasqualini
   img: https://avatars.githubusercontent.com/u/52749105?v=4
-  location: London, GB
+  location: Berlin, DE
   facebook: a
   twitter: b
-  github: c
+  github: https://github.com/pypas
   page: paula
 
 - name: Neha Raut
@@ -67,7 +67,7 @@
   location: Pune, IN
   facebook: a
   twitter: b
-  github: c
+  github: https://github.com/neharaut00
   page: neha
 
 - name: Anirudh Sharma
@@ -75,7 +75,7 @@
   location: New Delhi, IN
   facebook: a
   twitter: b
-  github: c
+  github: https://github.com/AnirudhBot
   page: anirudh
 
 - name: Vishal Shinde
@@ -83,7 +83,7 @@
   location: Kalyan, IN
   facebook: a
   twitter: b
-  github: c
+  github: https://github.com/vishal-codes
   page: vishal
 
 
@@ -92,7 +92,7 @@
   location: Lucknow, IN
   facebook: a
   twitter: b
-  github: c
+  github: https://github.com/getRicha
   page: richa
 
 - name: Goutam Verma
@@ -100,7 +100,7 @@
   location: Indore, IN
   facebook: a
   twitter: b
-  github: c
+  github: https://github.com/GoutamVerma
   page: goutam
 
 - name: Harshit Chunduri
@@ -108,7 +108,7 @@
   location: Hyderabad, IN
   facebook: a
   twitter: b
-  github: c
+  github: https://github.com/Harshith-19
   page: harshit
 
 - name: Swapnil Shinde
@@ -116,5 +116,5 @@
   location: Pune, IN
   facebook: a
   twitter: b
-  github: c
+  github: https://github.com/AtmegaBuzz
   page: swapnil

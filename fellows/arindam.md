@@ -6,7 +6,7 @@ location: Delhi, IN
 email: x@x.x
 linkedin: xx
 twitter: xx
-github: xx
+github: https://github.com/h2o-Noob
 description: xx
 university: xx
 interests: xx
