@@ -1,0 +1,90 @@
+.fellow-container {
+    border-radius: 5px;
+    margin: 70px auto 30px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+    .fellow-img-container {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+
+        .fellow-name {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin: 0;
+        }
+
+        .fellow-img {
+            height: 370px;
+            width: 370px;
+        }
+    }
+
+    .fellow-info-container {
+        max-width: 50%;
+
+        .fellow-info {
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+
+            .fellow-info-key {
+                font-size: 1.3rem;
+                font-weight: 700;
+                margin: 0;
+            }
+        }
+
+        .fellow-social-icons {
+            font-size: 35px;
+            margin-right: 35px;
+
+            &:hover {
+                transform: scale(1.5);
+            }
+        }
+
+        .social-icons-hover {
+            &:hover {
+                transition: 1s;
+                transform: scale(1.2) rotateY(360deg);
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .fellow-container {
+        .fellow-img-container {
+            .fellow-img {
+                height: 270px;
+                width: 270px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .fellow-container {
+        flex-direction: column;
+        padding: 25px;
+
+        .fellow-img-container {
+            width: auto;
+        }
+
+        .fellow-info-container {
+            max-width: initial;
+        }
+    }
+}
