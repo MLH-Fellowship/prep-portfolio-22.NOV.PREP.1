@@ -1,5 +1,5 @@
 ---
-title: Mahidar Mannuru
+title: Mahidhar Mannuru
 layout: fellow
 img: https://avatars.githubusercontent.com/u/81514511?v=4
 location: Thatiparthi, IN
