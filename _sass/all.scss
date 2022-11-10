@@ -10,7 +10,7 @@
 @import "fireflies";
 @import 'fellow';
 @import 'map';
-
+@import 'footer';
 
 .card-container {
   display: grid;
@@ -37,8 +37,10 @@
 }
 
 body {
+
   background-color: #f5f5f9;
-  margin-bottom: 50px;
+  //margin-bottom: 50px;
+
 }
 h2 {
   margin-bottom: 20px;
