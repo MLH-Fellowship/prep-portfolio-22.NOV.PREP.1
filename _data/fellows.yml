@@ -1,104 +1,23 @@
-- name: Prasaya Acharya
-  img: https://avatars.githubusercontent.com/u/47562404?v=4
-  location: Kathmandu, NP
-  facebook: a
-  twitter: b
-  github: Prasaya
-  page: prasaya
-
-- name: Rose Allison
-  img: https://avatars.githubusercontent.com/u/68086268?v=4
-  location: New York, US
-  facebook: a
-  twitter: b
-  github: aroseallison
-  page: rose
-
-- name: Prathamesh Mutkure  
-  img: https://avatars.githubusercontent.com/u/28570857?v=4
-  location: Nagpur, IN
-  facebook: a
-  twitter: b
-  github: prathamesh-mutkure
-  page: prathamesh
-
-- name: Zainab Fahim
-  img: https://avatars.githubusercontent.com/u/80398726?v=4
-  location: Panadura, LK
-  facebook: a
-  twitter: b
-  github: Zainab-Fahim
-  page: zainab
-
-- name: Sharvil Karwa
-  img: https://avatars.githubusercontent.com/u/93196443?v=4
-  location: Mumbai, IN
-  facebook: a
-  twitter: b
-  github: Sharvil-Karwa
-  page: sharvil
-
-- name: Mahidhar Mannuru
-  img: https://avatars.githubusercontent.com/u/81514511?v=4
-  location: Thatiparthi, IN
-  facebook: a
-  twitter: b
-  github: MahidharMannuru5
-  page: mahidhar
-
-- name: Arindam Raina
-  img: https://avatars.githubusercontent.com/u/85777684?v=4
-  location: Delhi, IN
-  facebook: a
-  twitter: b
-  github: h2o-Noob
-  page: arindam
-
-- name: Paula Yumi Pasqualini
-  img: https://avatars.githubusercontent.com/u/52749105?v=4
-  location: Berlin, DE
-  facebook: a
-  twitter: b
-  github: pypas
-  page: paula
-
-- name: Neha Raut
-  img: https://avatars.githubusercontent.com/u/88868603?v=4
-  location: Pune, IN
-  facebook: a
-  twitter: b
-  github: neharaut00
-  page: neha
-  
 - name: Anirudh Sharma
   img: https://avatars.githubusercontent.com/u/78658727?v=4
   location: New Delhi, IN
-  facebook: a
+  linkedin: a
   twitter: b
   github: AnirudhBot
   page: anirudh
 
-- name: Vishal Shinde
-  img: https://avatars.githubusercontent.com/u/79784161?v=4
-  location: Kalyan, IN
-  facebook: a
+- name: Arindam Raina
+  img: https://avatars.githubusercontent.com/u/85777684?v=4
+  location: Delhi, IN
+  linkedin: a
   twitter: b
-  github: vishal-codes
-  page: vishal
-
-
-- name: Richa Srivastava
-  img: https://avatars.githubusercontent.com/u/74401402?v=4
-  location: Lucknow, IN
-  facebook: a
-  twitter: b
-  github: getRicha
-  page: richa
+  github: h2o-Noob
+  page: arindam
 
 - name: Goutam Verma
   img: https://avatars.githubusercontent.com/u/66783850?v=4
   location: Indore, IN
-  facebook: a
+  linkedin: a
   twitter: b
   github: GoutamVerma
   page: goutam
@@ -106,15 +25,95 @@
 - name: Harshit Chunduri
   img: https://avatars.githubusercontent.com/u/100994600?v=4
   location: Hyderabad, IN
-  facebook: a
+  linkedin: a
   twitter: b
   github: Harshith-19
   page: harshit
 
+- name: Mahidhar Mannuru
+  img: https://avatars.githubusercontent.com/u/81514511?v=4
+  location: Thatiparthi, IN
+  linkedin: a
+  twitter: b
+  github: MahidharMannuru5
+  page: mahidhar
+
+- name: Neha Raut
+  img: https://avatars.githubusercontent.com/u/88868603?v=4
+  location: Pune, IN
+  linkedin: a
+  twitter: b
+  github: neharaut00
+  page: neha
+
+- name: Paula Yumi Pasqualini
+  img: https://avatars.githubusercontent.com/u/52749105?v=4
+  location: Berlin, DE
+  linkedin: a
+  twitter: b
+  github: pypas
+  page: paula
+
+- name: Prasaya Acharya
+  img: https://avatars.githubusercontent.com/u/47562404?v=4
+  location: Kathmandu, NP
+  linkedin: a
+  twitter: b
+  github: Prasaya
+  page: prasaya
+
+- name: Prathamesh Mutkure  
+  img: https://avatars.githubusercontent.com/u/28570857?v=4
+  location: Nagpur, IN
+  linkedin: a
+  twitter: b
+  github: prathamesh-mutkure
+  page: prathamesh
+
+- name: Richa Srivastava
+  img: https://avatars.githubusercontent.com/u/74401402?v=4
+  location: Lucknow, IN
+  linkedin: a
+  twitter: b
+  github: getRicha
+  page: richa
+
+- name: Rose Allison
+  img: https://avatars.githubusercontent.com/u/68086268?v=4
+  location: New York, US
+  linkedin: a
+  twitter: b
+  github: aroseallison
+  page: rose
+
+- name: Sharvil Karwa
+  img: https://avatars.githubusercontent.com/u/93196443?v=4
+  location: Mumbai, IN
+  linkedin: a
+  twitter: b
+  github: Sharvil-Karwa
+  page: sharvil
+
 - name: Swapnil Shinde
   img: https://avatars.githubusercontent.com/u/68425016?v=4
   location: Pune, IN
-  facebook: a
+  linkedin: a
   twitter: b
   github: AtmegaBuzz
   page: swapnil
+
+- name: Vishal Shinde
+  img: https://avatars.githubusercontent.com/u/79784161?v=4
+  location: Mumbai, IN
+  linkedin: https://www.linkedin.com/in/vishal-shinde-/
+  twitter: vishaltwts
+  github: vishal-codes
+  page: vishal
+
+- name: Zainab Fahim
+  img: https://avatars.githubusercontent.com/u/80398726?v=4
+  location: Panadura, LK
+  linkedin: a
+  twitter: b
+  github: Zainab-Fahim
+  page: zainab
