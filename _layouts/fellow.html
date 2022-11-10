@@ -2,54 +2,52 @@
 layout: page
 ---
 <div class="fellow-container">
-    <!-- <div class="bg-secondary d-flex justify-content-center align-items-center"> -->
-        <div class="fellow-img-container">
-            <img src="{{ page.img }}" height="400" width="400" alt="{{ page.title }}" class="rounded-circle">
-            <p class="fellow-name">{{ page.title }}</p>
-            <span>📍 {{ page.location }}</span>
-        </div>
-        
-        <div class="fellow-info-container">
-            <div class="fellow-info">
-                <span class="fellow-info-key">University: </span>
-                <span class="">{{ page.university }}</span>
-            </div>
-
-            <div class="fellow-info">
-                <span class="fellow-info-key">Description:</span>
-                <span class="">
-                    {{ page.description }}
-                </span>
-            </div>
-
-            <div class="fellow-info">
-                <span class="fellow-info-key">Favourite programming languages:</span>
-                <span class="">
-                    {{ page.programming-languages }}
-                </span>
-            </div>
+    <div class="fellow-img-container">
+        <img class="rounded-circle fellow-img" src="{{ page.img }}" alt="{{ page.title }}">
+        <p class="fellow-name">{{ page.title }}</p>
+        <span>📍 {{ page.location }}</span>
+    </div>
     
-            <div class="fellow-info">
-                <span class="fellow-info-key">Interests out of Tech:</span>
-                <span class="">
-                    {{ page.interests }}
-                </span>
-            </div>
-    
-            <div class="social-icons d-flex flex-row align-items-center">
-                <a href="mailto:{{ page.email }}">
-                    <span class="fellow-social-icons"><i class="fa fa-envelope social-icons-hover"></i></span>
-                </a>
-                <a href="{{ page.linkedin }}">
-                    <span class="fellow-social-icons"><i class="fab fa-linkedin social-icons-hover"></i></span>
-                </a>
-                <a href="{{ page.twitter }}">
-                    <span class="fellow-social-icons"><i class="fa fa-twitter social-icons-hover"></i></span>
-                </a>
-                <a href="{{ page.github }}">
-                    <span class="fellow-social-icons"><i class="fa fa-github social-icons-hover"></i></span>
-                </a>
-            </div>
+    <div class="fellow-info-container">
+        <div class="fellow-info">
+            <span class="fellow-info-key">University: </span>
+            <span class="">{{ page.university }}</span>
         </div>
-    <!-- </div> -->
+
+        <div class="fellow-info">
+            <span class="fellow-info-key">Description:</span>
+            <span class="">
+                {{ page.description }}
+            </span>
+        </div>
+
+        <div class="fellow-info">
+            <span class="fellow-info-key">Favourite programming languages:</span>
+            <span class="">
+                {{ page.programming-languages }}
+            </span>
+        </div>
+
+        <div class="fellow-info">
+            <span class="fellow-info-key">Interests out of Tech:</span>
+            <span class="">
+                {{ page.interests }}
+            </span>
+        </div>
+
+        <div class="social-icons d-flex flex-row align-items-center">
+            <a href="mailto:{{ page.email }}">
+                <span class="fellow-social-icons"><i class="fa fa-envelope social-icons-hover"></i></span>
+            </a>
+            <a href="{{ page.linkedin }}">
+                <span class="fellow-social-icons"><i class="fab fa-linkedin social-icons-hover"></i></span>
+            </a>
+            <a href="{{ page.twitter }}">
+                <span class="fellow-social-icons"><i class="fa fa-twitter social-icons-hover"></i></span>
+            </a>
+            <a href="{{ page.github }}">
+                <span class="fellow-social-icons"><i class="fa fa-github social-icons-hover"></i></span>
+            </a>
+        </div>
+    </div>
 </div>
