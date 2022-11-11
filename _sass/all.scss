@@ -98,3 +98,63 @@ a {
     width: 100%;
   }
 }
+
+.project-card{
+  position: relative;
+  background: #fff;
+  border-radius: 20px;
+  margin: 20px 0;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  margin: 3vh;
+}
+
+.project-card::before{
+  content: "";
+  position: absolute;
+  height: 40%;
+  width: 100%;
+  background: rgb(18,54,103);
+  border-radius: 20px 20px 0 0;
+}
+
+.project-card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  position: relative;
+  z-index: 100;
+}
+
+.project-image {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  padding: 3px;
+  background: rgb(18,54,103);
+}
+
+.project-image:hover {
+  box-shadow: 0px 0px 20px -3px black;
+  transition-duration: 0.3s;
+}
+
+.project-image > a > img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+.project-link {
+  text-align: center;
+}
+
+.project-link > a{
+  text-decoration: none;
+}
+
+.info > p{
+  text-align: center;
+}

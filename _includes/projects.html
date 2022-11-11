@@ -1,19 +1,23 @@
 <h2 id ="projects">Projects</h2>
 <div class="card-container">
-    {% for item in site.data.projects %}
-    {% if item.page-name %}
-    <a href="/projects/{{ item.page-name }}">
-    {% else %}
-    <a>
-    {% endif %}
-      <div class="card">
-        <div class="info">
-          <p class="title">{{ item.title }}</p>
-          <p class="location">{{ item.event }}</p>
-          <p class="dates">{{ item.date }}</p>
-        </div>
+  {% for item in site.data.projects %}
+
+  <div class="project-card">
+    <div class="project-card-content">
+      <div class="project-image">
+        <a href="/projects/{{ item.page-name }}">
+          <img src="{{item.imageurl}}">
+        </a>
       </div>
-    </a>
-    {% endfor %}
+    </div>
+    <div class="info">
+      <p class="title">{{ item.title }}</p>
+      <p class="location">{{ item.name }}</p>
+      <h1 class="project-link">
+        <a href="{{item.projecturl}}" target="_blank" class="fa fa-github"></a>
+      </h1>
+    </div>
   </div>
-  
+  </a>
+  {% endfor %}
+</div>

@@ -1,14 +1,55 @@
-- title: Online Shopping App
-  event: MLH Prep Pod Project
-  date: Fall 2021  - Batch 4.5
+- title: Being Sapien
+  name: Arindam Raina
+  projecturl: https://github.com/h2o-Noob/being-sapien-v2
+  imageurl: https://beingsapien.herokuapp.com/static/media/logo.14a171939565c72e4af5.png
   page-name: project
 
-- title: Todo List
-  event: MLH Prep Pod Project
-  date: Fall 2021  - Batch 4.5
+- title: Metaverse-rough
+  name: Sharvil Karwa
+  projecturl: https://github.com/Sharvil-Karwa/metaverse-rough
+  imageurl: https://avatars.githubusercontent.com/u/93196443?v=4
   page-name: project
 
-- title: iOS App
-  event: MLH Prep Pod Project
-  date: Fall 2021  - Batch 4.5
+- title: Web Server
+  name: Swapnil Shinde
+  imageurl: https://user-images.githubusercontent.com/68425016/198209507-39c6cd5c-ad15-4d9d-8ac4-2a75cfc66e20.png
+  projecturl: https://github.com/AtmegaBuzz/weebserver
   page-name: project
+
+- title: Leaderboard-Pro
+  name: Harshit Chunduri
+  imageurl: https://avatars.githubusercontent.com/u/100994600?v=4
+  projecturl: https://github.com/Harshith-19/Leaderboard-Pro
+  page-name: project
+
+- title: Anti Cheat Web App
+  name: Prathamesh Mutkure
+  imageurl: https://user-images.githubusercontent.com/28570857/178106216-25d91b1c-06cf-42fa-85fc-cf3540868b1f.png
+  projecturl: https://github.com/prathamesh-mutkure/anti-cheat-app-web
+  page-name: project
+  
+- title: TinyGS data visualization for Liquid Galaxy
+  name: Gourav Verma
+  imageurl: https://user-images.githubusercontent.com/66783850/187384759-9d03c653-a5e4-47a4-9184-b38d05000ba6.png
+  projecturl: https://github.com/GoutamVerma/TinyGS-data-visualization-for-Liquid-Galaxy-GSoC-2022
+  page-name: project
+
+- title: Bookmark Manager
+  name: Vishal Shinde
+  imageurl: https://avatars.githubusercontent.com/u/79784161?v=4
+  projecturl: https://github.com/GoutamVerma/TinyGS-data-visualization-for-Liquid-Galaxy-GSoC-2022
+  page-name: project
+
+- title: Rain Check
+  name: Richa Srivastava
+  imageurl: https://raw.githubusercontent.com/getRicha/rain-checkk/main/demo/lko_w.png
+  projecturl: https://github.com/getRicha/rain-checkk
+  page-name: project
+
+- title: Job Portal
+  name: Prasaya Acharya
+  imageurl: https://avatars.githubusercontent.com/u/47562404?v=4
+  projecturl: https://github.com/Prasaya/online_job_portal
+  page-name: project
+
+
