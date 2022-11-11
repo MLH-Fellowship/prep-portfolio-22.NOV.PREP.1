@@ -59,9 +59,9 @@ export const fellows = [
   },
   {
     name: "Paula Yumi Pasqualini",
-    lat: 51.545,
-    long: -0.2609,
-    location: "London, GB",
+    lat: 52.520,
+    long: 13.404,
+    location: "Berlin, DE",
     image: "https://avatars.githubusercontent.com/u/52749105?v=4",
     page: "paula",
   },
