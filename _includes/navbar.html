@@ -5,11 +5,38 @@
                 <img src="/assets/img/mlh-prep.png" />
             </div>
         </a>
-        <div class="nav-links">
+        <div class="parent">
+            <div class="div1 block">
+                <a href="#nav" >
+                    <div class="nav-logo2 block">
+                        <img src="./assets/img/mlh-prep.png" />
+                    </div>
+                </a>    
+            </div>
+            <div class="div2 block"> </div>
+            <div class="div3 block"><a class="block" href="#description">Meet the Pod</a></div>
+            <div class="div4 block"> <a class="block" href="#projects">Projects</a></div>
+            <div class="div5 block"> <a class="block" href="#blogs">Blogs</a></div>
+            <div class="div6 block"> </div>
+            <div class="div7 block"> 
+                <a>
+                    <div class="theme-toggle-btn">
+                      <input type="checkbox" class="checkbox" id="checkbox">
+                    <label for="checkbox" class="label">
+                      <i class="fas fa-moon"></i>
+                      <i class='fas fa-sun'></i>
+                      <div class='ball'>
+                    </label>
+                  </div>
+                  </a>
+            </div>
+            </div> 
+
+        <!-- <div class="nav-links"> -->
           <!-- <a href="{{ '/' | relative_url }}" class="hide" id="small-nav-logo">
               <img src="./assets/img/mlh-prep.png" />
           </a> -->
-          <div class="links">
+          <!-- <div class="links">
               <a href="#nav" >
                   <div class="nav-logo2 block">
                       <img src="./assets/img/mlh-prep.png" />
@@ -18,16 +45,18 @@
               <a class="block" href="#description">Meet the Pod</a>
               <a class="block" href="#projects">Projects</a>
               <a class="block" href="#blogs">Blogs</a>
-          </div>
-        </div>
-        <div class="theme-toggle-btn">
-            <input type="checkbox" class="checkbox" id="checkbox">
-          <label for="checkbox" class="label">
-            <i class="fas fa-moon"></i>
-            <i class='fas fa-sun'></i>
-            <div class='ball'>
-          </label>
-        </div>
+              <a>
+                <div class="theme-toggle-btn">
+                  <input type="checkbox" class="checkbox" id="checkbox">
+                <label for="checkbox" class="label">
+                  <i class="fas fa-moon"></i>
+                  <i class='fas fa-sun'></i>
+                  <div class='ball'>
+                </label>
+              </div>
+              </a>
+          </div> -->
+        <!-- </div> -->
     </div>
 </header>
 <script>
@@ -40,15 +69,19 @@
     links = document.querySelector(".links");
     shift=document.querySelector(".nav-logo")
     shift2=document.querySelector(".nav-logo2")
-
+    div1=document.querySelector(".div1")
     shift2.addEventListener("click", function(){ window.scrollTo(0,0) })
 
     window.addEventListener("scroll", (event) => {
     let scrollY = this.scrollY;
-    if (scrollY > 100) {
+    if(scrollY == 0){
+        shift2.style.display="none";
+    }
+    else if (scrollY > 100) {
         shift2.style.display="flex";
         shift.style.display="none";
         mainNav.style.height="80px";
+        div1.style.display="flex"
     } else {
         shift.style.display="flex";
         shift2.style.display="none";

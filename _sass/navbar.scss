@@ -10,6 +10,8 @@ html {
     font-weight: 700 !important;
     height: $navbar-height;
     position: fixed;
+    z-index: 401;
+    top:0 !important;
 
     &:hover{
         background-color: #07162a;
@@ -73,9 +75,9 @@ html {
   width: 220px;
 }
 .nav-logo2 {
-  // display: flex;
-  // align-items: center;
-  // justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   display: none;
 }
 .nav-logo2 img {
@@ -92,8 +94,18 @@ html {
   padding-right: 0px;
 }
 .block{
-  padding: 0 40px;
+  // padding: 0 40px;
+  // padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
+
+.theme-toggle-btn{
+  margin-left: 20px;
+}
+
 
 //dark theme toggling
 body.dark {
@@ -144,3 +156,23 @@ body.dark {
 .fa-sun {
   color: yellow;
 }
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: .2fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  padding-top: 14px;
+  }
+  
+  .div1 { grid-area: 1 / 1 / 2 / 2; display: none;}
+  .div2 { grid-area: 1 / 2 / 2 / 3; }
+  .div3 { grid-area: 1 / 3 / 2 / 4; }
+  .div4 { grid-area: 1 / 4 / 2 / 5; }
+  .div5 { grid-area: 1 / 5 / 2 / 6; }
+  .div6 { grid-area: 1 / 6 / 2 / 7; }
+  .div7 { grid-area: 1 / 7 / 2 / 8;
+          // padding-top: 2px;
+  }
+  
