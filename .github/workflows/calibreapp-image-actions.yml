@@ -1,12 +1,12 @@
 name: Compress Images
- on:
+on:
    pull_request:
      paths:
        - '**.jpg'
        - '**.jpeg'
        - '**.png'
        - '**.webp'
- jobs:
+jobs:
    build:
      if: github.event.pull_request.head.repo.full_name == github.repository
      name: calibreapp/image-actions
